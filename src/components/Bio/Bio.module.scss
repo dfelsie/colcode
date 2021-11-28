@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap");
+
+.bio {
+	display: flex;
+}
+
+.bioImage {
+	margin-right: 3em;
+	img {
+		width: 16em;
+
+		border-radius: 50%;
+	}
+}
+
+.bioContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.bioContentName {
+	font-family: Source Sans Pro;
+	font-weight: 900;
+	line-height: 64px;
+	color: #4948a7;
+	font-size: 52px;
+	margin: 0;
+}
+
+.bioContentTagline {
+	font-family: Source Sans Pro;
+	font-weight: normal;
+	line-height: 48px;
+	color: #414141;
+	font-size: 36px;
+	margin-bottom: 0.4em;
+	margin-top: 0.2em;
+}
+
+.bioContentRole {
+	font-family: Source Sans Pro;
+	font-weight: bold;
+	line-height: 36px;
+	color: #414141;
+	font-size: 30px;
+	margin: 0;
+}
