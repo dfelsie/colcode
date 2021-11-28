@@ -20,7 +20,7 @@ const Index = () => (
 			<Bio
 				tagline="Me"
 				name="Daniel Felsenthal"
-				role="BigMan"
+				role="Full Stack Developer"
 				image="../assets/images/reelitin.jpg"
 			/>{" "}
 			<ul className={styles.list}>
